@@ -117,3 +117,15 @@ body#home-page > main > section > div > p.aside-details {
 body#home-page > main > section > div > p > span {
   font-weight: bolder;
 }
+
+@media screen and (max-width: 703px) {
+  body#home-page > main > section#name {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 422px) {
+  body#home-page > main > section#name {
+    height: 550px;
+  }
+}
