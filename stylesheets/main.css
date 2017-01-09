@@ -142,3 +142,10 @@ body#home-page > main > section > div > p > span {
     height: 550px;
   }
 }
+
+@media screen and (max-width: 337px) {
+  body#home-page > main > section#contact > div:nth-child(2) {
+    width: 153px;
+    margin: 0 auto;
+  }
+}
