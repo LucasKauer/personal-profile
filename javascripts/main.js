@@ -4,7 +4,7 @@ var Home = (function (params) {
     var configureServiceWorker = function() {
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function () {
-                navigator.serviceWorker.register('../sw.js');
+                navigator.serviceWorker.register('../personal-profile/sw.js');
             });
         }
     }
