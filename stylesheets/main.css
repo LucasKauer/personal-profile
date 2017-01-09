@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Rajdhani;
+    src: url(../fonts/Rajdhani/Rajdhani-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+.progress {
+  overflow: hidden;
+  height: 40px;
+  background-color: #eee;
+  border-radius: 4px;
+  margin: 1%;
+}
+
+.progress-bar {
+  float: left;
+  height: 100%;
+}
+
+.progress-bar-initial {
+    background-color: #EEE657;
+    text-align: justify;
+}
+
+.progress p {
+  color:#7D1424;
+  text-transform: uppercase;
+  margin: 0 0 0 40px;
+  line-height: 40px;
+}
+
+.progress p.progress-percent {
+  margin: 0 10px 0 0;
+  float:right;
+  font-weight:600; 
+}
+
+body#home-page {
+  margin: 0 0 0 0;
+  font-family: Rajdhani;
+}
+
+body#home-page ul {
+  margin: 0;
+  padding: 0;
+}
+
+body#home-page ul li {
+  list-style-type: none;
+}
+
+body#home-page > main > section {
+  padding: 2%;
+}
+
+body#home-page > main > section:nth-child(odd) {
+  background-color: #7D1424;
+  color: #FFFCE6;
+}
+
+body#home-page > main > section:nth-child(even) {
+  background-color: #FFFCE6;
+  color: #7D1424;
+}
+
+body#home-page > main > section > div {
+  text-align: center;
+}
+
+body#home-page > main > section > div h1.title, div h2.sub-title, h2.topic-title, div h3.title {
+  text-transform: uppercase;
+}
+
+body#home-page > main > section > div h1.title {
+  font-size: 4em;
+  font-weight: 800;
+  color: #EDD834;
+}
+
+body#home-page > main > section > div h2.sub-title, h2.topic-title {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+body#home-page > main > section > div h1.title, h2.sub-title {
+  margin: 0;
+}
+
+body#home-page > main > section > div > p {
+  text-align: justify;
+}
+
+body#home-page > main > section#name {
+  height: 250px;
+}
+
+body#home-page > main > section#name > div {
+  margin-top: 50px;
+}
+
+body#home-page > main > section#about-me > div#professional-information {
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+body#home-page > main > section > div.main-skills {
+  width: 49%;
+  display: inline-block;
+}
+
+body#home-page > main > section > div > p.aside-details {
+  text-align: center;
+}
+
+body#home-page > main > section > div > p > span {
+  font-weight: bolder;
+}

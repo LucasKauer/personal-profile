@@ -1,0 +1,23 @@
+var Home = (function (params) {
+    'use strict';
+
+    var initializeEvents = function () {
+        $('#go-to-top').on('click', function () {
+            $('html, body').animate({ scrollTop: 0 }, 'slow');
+        });
+
+        $('#go-to-abilities').on('click', function () {
+            $('html, body').animate({ scrollTop: 440 }, 'slow');
+        });
+    };
+
+    var init = function () {
+        initializeEvents();
+    };
+
+    return {
+        init: init
+    };
+}());
+
+$(document).on('ready', Home.init);
