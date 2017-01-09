@@ -12,7 +12,8 @@ var urlsToCache = [
   'images/mail.png',
   'images/stackoverflow.png',
   'images/whatsapp.png',
-  'fonts/Rajdhani/Rajdhani-Regular.ttf'
+  'fonts/Rajdhani/Rajdhani-Regular.ttf',
+  'manifest.json'
 ];
 
 self.addEventListener('install', function(event) {
