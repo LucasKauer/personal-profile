@@ -11,7 +11,6 @@ var Home = (function (params) {
 
     var initializeApplication = function () {
         configureServiceWorker();
-        FontLoader.init();
     }
 
     var init = function () {
