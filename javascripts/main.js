@@ -1,16 +1,30 @@
 var Home = (function (params) {
     'use strict';
 
-    var initializeEvents = function () {
-    };
+    var configureServiceWorker = function() {
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('../sw.js');
+            });
+        }
+    }
+
+    var initializeApplication = function () {
+        configureServiceWorker();
+        FontLoader.init();
+    }
 
     var init = function () {
-        initializeEvents();
-    };
+        document.onreadystatechange = function () {
+            if (document.readyState === "complete") {
+                initializeApplication();
+            }
+        }
+    }
 
     return {
         init: init
     };
 }());
 
-$(document).on('ready', Home.init);
+Home.init();
