@@ -1,8 +1,8 @@
 @font-face {
-    font-family: Rajdhani;
-    src: url(../fonts/Rajdhani/Rajdhani-Regular.ttf) format('truetype');
-    font-weight: 400;
-    font-style: normal
+  font-family: Rajdhani;
+  src: url(../fonts/Rajdhani/Rajdhani-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal
 }
 
 .progress {
@@ -32,8 +32,8 @@
 
 .progress p.progress-percent {
   margin: 0 10px 0 0;
-  float:right;
-  font-weight:600; 
+  float: right;
+  font-weight: 600; 
 }
 
 body#home-page {
@@ -100,9 +100,9 @@ body#home-page > main > section#name > div {
 }
 
 body#home-page > main > section#about-me > div#professional-information {
-    width: 50%;
-    margin: 0 auto;
-    text-align: justify;
+  width: 80%;
+  margin: 0 auto;
+  text-align: justify;
 }
 
 body#home-page > main > section > div.main-skills {
@@ -121,6 +121,19 @@ body#home-page > main > section > div > p > span {
 @media screen and (max-width: 703px) {
   body#home-page > main > section#name {
     height: 400px;
+  }
+  .progress p {
+    margin: 0 0 0 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body#home-page > main > section > div.main-skills {
+    width: 100%;
+    display: block;
+  }
+  body#home-page > main > section#about-me > div#professional-information {
+    width: 95%;
   }
 }
 
