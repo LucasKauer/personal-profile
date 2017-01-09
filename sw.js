@@ -2,17 +2,17 @@ var CACHE_NAME = 'personal-profile-v3';
 
 var urlsToCache = [
   '/personal-profile',
-  'personal-profile/index.html',  
-  'personal-profile/stylesheets/main.css',
-  'personal-profile/javascripts/jquery-2.1.4.min.js',
-  'personal-profile/javascripts/main.js',
-  'personal-profile/images/facebook.png',
-  'personal-profile/images/github.png',
-  'personal-profile/images/linkedin.png',
-  'personal-profile/images/mail.png',
-  'personal-profile/images/stackoverflow.png',
-  'personal-profile/images/whatsapp.png',
-  'personal-profile/fonts/Rajdhani/Rajdhani-Regular.ttf'
+  'index.html',  
+  'stylesheets/main.css',
+  'javascripts/jquery-2.1.4.min.js',
+  'javascripts/main.js',
+  'images/facebook.png',
+  'images/github.png',
+  'images/linkedin.png',
+  'images/mail.png',
+  'images/stackoverflow.png',
+  'images/whatsapp.png',
+  'fonts/Rajdhani/Rajdhani-Regular.ttf'
 ];
 
 self.addEventListener('install', function(event) {
